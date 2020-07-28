@@ -1,0 +1,5 @@
+mysql_root_password: "{{ vault_mysql_root_password }}" # Define this variable in group_vars/production/vault.yml
+project_root: /www/rosellejoycausing_527/public
+www_root: /www/rosellejoycausing_527/public
+web_user: rosellejoycausing
+web_group: www-data
